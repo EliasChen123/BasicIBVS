@@ -17,8 +17,6 @@
 #include "commu_test/serial_port.h"
 #include "commu_test/motor_control.h"
 #include "commu_test/state_machine.h"*/
-
-
 #include "commu/serial_port_interface.hpp"
 #include "motor_control/motor_control.hpp"
 #include "thread/SerialRunnable.hpp"
