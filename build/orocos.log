@@ -1,0 +1,30 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.9.0' compiled with GCC 11.4.0. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1749023662311940502 ticks ( 1.74902e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] No RTT_COMPONENT_PATH set. Using default: /usr/local/lib/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.000 [ Info   ][Logger] Loading plugin libraries from directory /usr/local/lib/orocos/gnulinux/./plugins ...
+0.006 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.013 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.013 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.013 [ Info   ][Logger] Loading typekit libraries from directory /usr/local/lib/orocos/gnulinux/./types ...
+0.029 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.029 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.030 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for llong
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.030 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for ullong
+0.030 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.030 [ Info   ][Logger] No RTT_COMPONENT_PATH set. Using default: /usr/local/lib/orocos
+2.031 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=96, CPU affinity=0, with name='uart'
+2.032 [ Info   ][uart] Thread created with scheduler type 'ORO_SCHED_RT', priority 96, cpu affinity 1048575 and period 0.001 (PID= 12165 ).
+5.558 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=96, CPU affinity=0, with name='robot'
+5.558 [ Info   ][robot] Thread created with scheduler type 'ORO_SCHED_RT', priority 96, cpu affinity 1048575 and period 0.001 (PID= 12167 ).
